@@ -1,0 +1,55 @@
+/* pages/flex/felx_layout.wxss */
+.blue-group{
+    background: #1e82d2;
+    padding: 20rpx;
+}
+
+.blue-group .blue-group-top{
+    height: 58rpx;
+    width: 100%;
+    display: flex;
+}
+.blue-group-top .search-input{
+  background: #1a71b1;
+  flex-grow: 1;
+  margin-right: 20rpx;
+  font-size: 26rpx;
+  padding-left: 10rpx;
+  border-radius: 10rpx;
+  color:white;
+}
+.blue-group-top .more-group{
+  flex-basis: 160rpx;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.blue-group-top .more-group image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.blue-group-bottom{
+  display: flex;
+  justify-content: space-around;
+}
+
+.blue-group-bottom .menu-group{
+
+  margin-top: 20rpx;
+  display: block;
+  height: 140rpx;
+  width: 100rpx;
+   align-content: center;
+   text-align: center;
+}
+
+.blue-group-bottom .menu-group image{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.blue-group-bottom .menu-group text{
+  font-size: 32rpx;
+  color: white;
+}

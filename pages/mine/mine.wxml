@@ -1,0 +1,6 @@
+<!--pages/mine/mine.wxml-->
+
+<view class='outter'>
+  <view class='child1'>1</view>
+  <view class='child2'>2</view>
+</view>

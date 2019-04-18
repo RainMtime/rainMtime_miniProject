@@ -1,0 +1,32 @@
+<!--pages/flex/felx_layout.wxml-->
+
+<view class='flex-container'>
+  <view class='blue-group'>
+    <view class='blue-group-top'>
+      <input class='search-input' placeholder='蚂蚁花呗' placeholder-class="phcolor"></input>
+      <view class='more-group'>
+        <image class='icon1' src='images/01.png'></image>
+        <image class='icon2' src='images/02.png'></image>
+      </view>
+    </view>
+    <view class='blue-group-bottom'>
+      <view class='menu-group'>
+           <image class='menu-icon'  src='images/1.png'></image>
+           <text class='menu-tips'>扫一扫</text>
+      </view>
+      <view class='menu-group'>
+           <image class='menu-icon'  src='images/2.png'></image>
+           <text class='menu-tips'>付钱</text>
+      </view>
+      <view class='menu-group'>
+           <image class='menu-icon'  src='images/3.png'></image>
+           <text class='menu-tips'>收钱</text>
+      </view>
+      <view class='menu-group'>
+           <image class='menu-icon'  src='images/4.png'></image>
+           <text class='menu-tips'>钱包</text>
+      </view>
+     
+    </view>
+  </view>
+</view>

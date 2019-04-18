@@ -1,0 +1,30 @@
+/* pages/mine/mine.wxss */
+.outter{
+  background: pink;
+  width: 400rpx;
+  height:400rpx;
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-end;
+  /* flex-wrap: wrap;  控制一行是否换行*/
+
+  /* align-content: space-around; 在多行的时候才起作用 */
+}
+.child1{
+  background: green;
+  flex-grow: 1;
+  width: 40rpx;
+  height: 40rpx;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.child2{
+  /* flex-basis: auto; 使用尺寸原来的值 */
+  /* flex-grow: 1;定义元素放大的模式 */
+  /* flex-shrink: 1; 定义item缩小比例 */
+  flex-grow: 1;
+  background: black;
+  width: 60rpx;
+  height: 60rpx;
+}
