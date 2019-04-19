@@ -1,0 +1,6 @@
+<!--componment/searchbar/searchbar.wxml-->
+
+<view class='search_bar_container'>
+   <navigator class='search_navigator' url='/pages/search/search'></navigator>
+</view>
+

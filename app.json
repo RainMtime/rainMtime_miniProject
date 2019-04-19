@@ -1,14 +1,14 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/flex/felx_layout",
     "pages/mine/mine",
-    "pages/index/index",
     "pages/logs/logs",
     "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#1e82d2",
+    "navigationBarBackgroundColor": "#67ba62",
     "navigationBarTitleText": "每天100部电影",
     "navigationBarTextStyle": "white"
   },
