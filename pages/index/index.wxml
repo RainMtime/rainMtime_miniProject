@@ -1,3 +1,17 @@
 <!--index.wxml-->
-<searchbar></searchbar>
-<view>主界面</view>
+<searchbar isnavigator = "{{true}}"></searchbar>
+<view class='module-container'>
+  <view class='module-top'>
+    <view>电影</view>
+    <navigator class='more-text'>更多</navigator>
+  </view>
+
+  <scroll-view class='module-bottom' scroll-x = "{{true}}">
+    <navigator class='movie-group'>
+       <image src='https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2541280047.webp'></image>
+       <view class='movie-title'>海王</view>
+       <stars rate="8"></stars>
+    </navigator>
+
+  </scroll-view>
+</view>

@@ -1,6 +1,11 @@
 <!--componment/searchbar/searchbar.wxml-->
 
 <view class='search_bar_container'>
-   <navigator class='search_navigator' url='/pages/search/search'></navigator>
+   <navigator wx:if ="{{isnavigator}}" class='search_navigator' url='/pages/search/search'></navigator>
+   <view wx:else class='search_input_container' >
+    <input class = 'search_input' placeholder='小鬼当家'></input>
+   </view>
+
+   
 </view>
 
