@@ -7,7 +7,7 @@
   </view>
 
   <scroll-view class='module-bottom' scroll-x = "{{true}}">
-    <navigator class='movie-group'>
+    <navigator wx:for ="{{movies}}" class='movie-group'>
        <image src='https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2541280047.webp'></image>
        <view class='movie-title'>海王</view>
        <stars rate="8"></stars>
