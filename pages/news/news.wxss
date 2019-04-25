@@ -1,0 +1,22 @@
+/* pages/news/news.wxss */
+
+.news_group{
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+}
+
+.news_left_title{
+  text-align: center;
+  font-size: 36rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.news_group .new_group_image{
+  height: 100rpx;
+  width: 200rpx;
+  border-radius: 10rpx;
+
+}
+
