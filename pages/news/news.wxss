@@ -6,6 +6,10 @@
   padding: 20rpx;
 }
 
+.news_left{
+  width: 100%;
+  height: 100%;
+}
 .news_left_title{
   text-align: center;
   font-size: 36rpx;
@@ -15,8 +19,7 @@
 
 .news_group .new_group_image{
   height: 100rpx;
-  width: 200rpx;
+  width:  200rpx;
   border-radius: 10rpx;
-
 }
 

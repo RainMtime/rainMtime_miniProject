@@ -5,14 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var that = this;
+    wx.request({
+      url: 'https://news-at.zhihu.com/api/4/news/latest',
+      success:function(res){
+          console.log(res);
+          that.setData({"news":res.data.stories});
 
+      }
+    })
   },
 
   /**
