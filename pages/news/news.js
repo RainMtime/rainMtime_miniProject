@@ -18,6 +18,7 @@ Page({
       success:function(res){
           console.log(res);
           that.setData({"news":res.data.stories});
+          that.setData({"top_news":res.data.top_stories});
 
       }
     })

@@ -24,7 +24,7 @@
 .movie-group{
   height:400rpx;
   width: 200rpx; 
-  margin-right: 30rpx;
+  margin-right: 40rpx;
   display: inline-block;
 }
 

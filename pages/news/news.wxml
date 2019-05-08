@@ -1,9 +1,27 @@
 <!--pages/news/news.wxml-->
 <view class='news_container'>
-   <navigator wx:for ="{{news}}"   class='news_group'>
+
+ <view  class='swiper-container'>
+   <swiper  indicator-dots='{{true}}' autoplay ="{{true}}" interval='{{3000}}' duration='{{500}}'>
+   <block wx:for = "{{top_news}}">
+     <swiper-item class = 'swiper-item'>
+       <image class='swiper-item-image' src="{{item.image}}"></image>
+     </swiper-item>
+   </block>
+  </swiper>
+ </view >
+  
+
+  <view>
+  <block wx:for-items="{{news}}" wx:key="*item">
+   <navigator class='news_group'>
       <view class='news_left'>
        <text class='news_left_title'>{{item.title}}</text>
       </view>
       <image class='new_group_image' src="{{item.images}}"></image>
    </navigator>
+  </block> 
+  </view>
+  
+  
 </view>
