@@ -42,14 +42,19 @@
 
 .swiper-container{
   width: 100%;
-  height: 550rpx;
+  height: 600rpx;
   display: flex;
   justify-content: space-around;
 }
 
  .swiper-container swiper{
    width:100%;
-   height: 550rpx;
+   height: 600rpx;
+ }
+
+ .swiper-navigtor{
+   width: 100%;
+   height: 100%;
  }
  .swiper-item-image{
    width: 100%;

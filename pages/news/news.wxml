@@ -5,7 +5,10 @@
    <swiper  indicator-dots='{{true}}' autoplay ="{{true}}" interval='{{3000}}' duration='{{500}}'>
    <block wx:for = "{{top_news}}">
      <swiper-item class = 'swiper-item'>
+       <navigator class='swiper-navigtor' url="../news_detail/new_detail?id={{item.id}}">
        <image class='swiper-item-image' src="{{item.image}}"></image>
+       </navigator>
+       
      </swiper-item>
    </block>
   </swiper>
@@ -14,7 +17,7 @@
 
   <view>
   <block wx:for-items="{{news}}" wx:key="*item">
-   <navigator class='news_group'>
+   <navigator class='news_group' url = "../news_detail/new_detail?id={{item.id}}">
       <view class='news_left'>
        <text class='news_left_title'>{{item.title}}</text>
       </view>

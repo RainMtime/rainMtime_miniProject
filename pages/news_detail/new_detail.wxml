@@ -1,0 +1,9 @@
+<!--pages/news_detail/new_detail.wxml-->
+<!-- 直接渲染html和css 进行相应的展示 -->
+<!-- <view>
+  <block>
+   <rich-text nodes = "{{body}}"></rich-text>
+  </block>
+</view> -->
+
+<web-view src = "{{shareurl}}"></web-view>

@@ -1,27 +1,33 @@
-// pages/news/news.js
+// pages/news_detail/new_detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var that = this;
-    wx.request({
-      url: 'https://news-at.zhihu.com/api/4/news/latest',
-      success:function(res){
-          console.log(res);
-          that.setData({"news":res.data.stories});
-          that.setData({"top_news":res.data.top_stories});
-          
-      }
-    })
+       console.log(options);
+       var that = this;
+       var realUrl = "https://news-at.zhihu.com/api/4/news/"+options.id;
+       wx.request({
+         url: realUrl,
+         success:function(res){
+           console.log(res);
+          var htmlnode = res.data.body.replace(/\“/g,"\"");
+          var finalnode = htmlnode.replace(/\”/g,"\"");
+          console.log(finalnode);
+           that.setData({
+             body:finalnode,
+             shareurl:res.data.share_url,
+           })
+         }
+       })
   },
 
   /**

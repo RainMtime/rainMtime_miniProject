@@ -5,7 +5,8 @@
     "pages/mine/mine",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/news_detail/new_detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
