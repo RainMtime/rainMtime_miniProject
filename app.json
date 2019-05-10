@@ -11,7 +11,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#67ba62",
-    "navigationBarTitleText": "每天100部电影",
+    "navigationBarTitleText": "知乎日报精选",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
